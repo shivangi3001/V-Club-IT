@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+
+        android:layout_width="@dimen/_320sdp"
+        android:layout_height="@dimen/_530sdp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/loginpage" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="@dimen/_90sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_90sdp"
+        android:layout_marginLeft="@dimen/_150sdp"
+        android:layout_marginTop="@dimen/_171sdp"
+        android:layout_marginEnd="@dimen/_110sdp"
+        android:layout_marginRight="@dimen/_180sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:background="#34495E"
+        android:shadowColor="#FFFFFF"
+        android:text="Login "
+        android:textColor="#01FAFA"
+        android:textColorHint="#E8D9D9"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.695" />
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_120sdp"
+        android:layout_marginLeft="@dimen/_117sdp"
+        android:layout_marginTop="@dimen/_244sdp"
+        android:layout_marginEnd="@dimen/_109sdp"
+        android:layout_marginRight="@dimen/_119sdp"
+        android:layout_marginBottom="@dimen/_340sdp"
+        android:ems="10"
+        android:hint="Email-Id"
+        android:inputType="textEmailAddress"
+        android:textColor="#E8E2E2"
+        android:textColorHint="#01FAFA"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_110sdp"
+        android:layout_marginLeft="@dimen/_129sdp"
+        android:layout_marginTop="@dimen/_305sdp"
+        android:layout_marginEnd="@dimen/_109sdp"
+        android:layout_marginRight="@dimen/_119sdp"
+        android:layout_marginBottom="@dimen/_276sdp"
+        android:ems="10"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        android:textColor="#E8E2E2"
+        android:textColorHint="#01FAFA"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
+
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="@dimen/_140sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_marginStart="@dimen/_180sdp"
+        android:layout_marginLeft="@dimen/_180sdp"
+        android:layout_marginTop="@dimen/_249sdp"
+        android:layout_marginEnd="@dimen/_90sdp"
+        android:layout_marginRight="@dimen/_160sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:background="#34495E"
+        android:shadowColor="#FFFFFF"
+        android:text="Register "
+        android:textColor="#01FAFA"
+        android:textColorHint="#E8D9D9"
+        android:textSize="@dimen/_18ssp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/imageView"
+
+        app:layout_constraintHorizontal_bias="0.982"
+        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.708" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
